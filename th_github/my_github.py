@@ -4,7 +4,7 @@ from django.conf import settings
 from django.contrib import messages
 from django.core.cache import caches
 from django.urls import reverse
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 # django_th classes
 from django_th.models import update_result

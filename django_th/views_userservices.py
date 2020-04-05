@@ -5,7 +5,7 @@ from django.contrib import messages
 from django.urls import reverse_lazy, reverse
 from django.http import HttpResponseRedirect
 from django.shortcuts import redirect, get_object_or_404
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from django.utils.decorators import method_decorator
 from django.views.generic import CreateView, DeleteView, UpdateView
 from django.views.generic import ListView

@@ -148,7 +148,7 @@ class ServicesMgr(object):
         if data.get('output_format'):
             # pandoc to convert tools
             import pypandoc
-            content = pypandoc.convert(content, str(data.get('output_format')), format='html')
+            content = pypandoc.convert_text(content, str(data.get('output_format')), format='html')
         return title, content
 
     def auth(self, request):

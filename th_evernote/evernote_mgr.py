@@ -1,6 +1,6 @@
 # coding: utf-8
 from django.core.cache import caches
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from django_th.models import update_result
 

@@ -66,7 +66,7 @@ The minimum requirements are the following:
 
 * `Python 3.6+ <https://python.org/>`_
 * `Redis <https://redis.io/>`_
-* `Django <https://www.djangoproject.com/>`_
+* `Django 3.x <https://www.djangoproject.com/>`_
 * `DjangoRestFramework <http://www.django-rest-framework.org/>`_
 * `Django-formtools <https://pypi.org/pypi/django-formtools>`_
 * `Django-js-reverse <https://pypi.org/pypi/django-js-reverse>`_
@@ -74,6 +74,9 @@ The minimum requirements are the following:
 * `Pypandoc <https://pypi.org/pypi/pypandoc/>`_
 * `Requests-oAuthlib <https://pypi.org/pypi/requests-oauthlib/>`_
 * `Arrow <https://pypi.org/pypi/arrow>`_
+
+
+**Warning**: For Django 2.2 support with Python 3.5, use version 1.7.x of the project
 
 Installation
 ============

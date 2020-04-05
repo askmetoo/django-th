@@ -2,7 +2,7 @@
 # django classes
 from django.conf import settings
 from django.core.cache import caches
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 # django_th classes
 from django_th.apps import DjangoThConfig
 from django_th.models import update_result, UserService
@@ -165,7 +165,7 @@ class ServiceTrello(ServicesMgr):
             description = trigger.trigger.description
             footer = footer_from.format(provided_by, description, provided_from, data.get('link'), data.get('link'))
             import pypandoc
-            footer = pypandoc.convert(footer, 'md', format='html')
+            footer = pypandoc.convert_text(footer, 'md', format='html')
         return footer
 
     def auth(self, request):

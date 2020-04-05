@@ -3,7 +3,7 @@ import arrow
 # django classes
 from django.conf import settings
 from django.utils import html
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from django.core.cache import caches
 # django_th classes
 from django_th.services.services import ServicesMgr

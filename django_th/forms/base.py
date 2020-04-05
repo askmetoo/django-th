@@ -1,7 +1,7 @@
 # coding: utf-8
 from django import forms
 from django.forms import TextInput, PasswordInput
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 # trigger happy
 from django_th.models import User, UserService, ServicesActivated, TriggerService

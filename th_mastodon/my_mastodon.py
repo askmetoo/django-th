@@ -5,7 +5,7 @@ import arrow
 from django.conf import settings
 from django.core.cache import caches
 from django.shortcuts import reverse
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 # django_th classes
 from django_th.models import update_result, UserService

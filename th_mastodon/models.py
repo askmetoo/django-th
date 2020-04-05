@@ -2,7 +2,7 @@
 from django.db import models
 from django_th.models import TriggerService
 from django_th.models.services import Services
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 SCOPES = (
      ('home', _('Home')),

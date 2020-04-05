@@ -1,16 +1,16 @@
 arrow
 awesome-slugify
 djangorestframework>=3.7.7,<4.0
-Django>=2.0,<3.0
+Django
 django-environ
 django-filter
 django-formtools
 django-js-reverse
 django-redis
-evernote3==1.25.12
+evernote3==1.25.13
 feedparser
 github3.py
-joplin-api==1.2.2
+joplin-api==1.5.4
 Mastodon.py
 pocket
 praw
@@ -25,4 +25,5 @@ pytz
 requests-oauthlib
 todoist-python
 twython
-wallabag_api==1.1.3
+wallabag_api
+
